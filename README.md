@@ -1,2 +1,2 @@
-# php
-Estudos e Projetos
+# Estudos - PHP
+Estudos de PHP com Exemplos Comentados
