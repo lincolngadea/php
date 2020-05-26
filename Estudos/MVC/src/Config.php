@@ -2,10 +2,10 @@
 namespace src;
 
 class Config {
-    const BASE_DIR = '/MVC/public';
+    const BASE_DIR = '/php/estudos/MVC/public';
 
     const DB_DRIVER = 'mysql';
-    const DB_HOST = 'localhost:3308';
+    const DB_HOST = '127.0.0.1  ';
     const DB_DATABASE = 'teste';
     CONST DB_USER = 'root';
     const DB_PASS = '';
