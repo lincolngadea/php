@@ -6,19 +6,19 @@
         private static $instance;
         
         private function __construct(){
-            $this->data = parse_ini_file('application.ini');
+            $this->data = parse_ini_file('application.ini');//gera um vetor do arquivo de configuração .ini
         }
 
         public static function getInstance(){
             if(empty(self::$instance)){
-                self::$instance = new self;
+                self::$instance = new self;//????
             }
 
             return self::$instance;
         }
 
         public function setData($key, $value){
-            $this->data[$key] = $value;
+            $this->data[$key] = $value; //transforma o $data em um array que recebe dois valores
         }
 
         public function getData($key){

@@ -10,3 +10,5 @@
 
     $p2 = Preferencias::getInstance();
     echo 'O Idioma é: '.$p2->getData('language')."<br>";
+
+    //$p1->save(); //Descomentar para salvar os dados
