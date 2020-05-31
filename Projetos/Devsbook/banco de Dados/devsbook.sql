@@ -28,3 +28,17 @@ CREATE TABLE Posts(
     body TEXT
 );
 
+CREATE TABLE postcomments(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    id_post INT,
+    id_user INT,
+    created_at DATETIME,
+    body TEXT
+);
+
+CREATE TABLE postlikes(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_post INT,
+    id_user INT,
+    created_at INT
+);
