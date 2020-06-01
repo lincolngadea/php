@@ -2,7 +2,7 @@
 namespace src;
 
 class Config {
-    const BASE_DIR = 'devsbook/mvc/public';
+    const BASE_DIR = '/php/Projetos/devsbook/public';
 
     const DB_DRIVER = 'mysql';
     const DB_HOST = 'localhost:3308';
