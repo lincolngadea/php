@@ -12,7 +12,7 @@ Consiste na ciração de uma pequena API para um sistema de anotações
 
 # Qual a estrutura de dados? #
 
-> local para armazenas as anotações
+> local para armazenar as anotações
 >> id
 >> title
 >> body
@@ -21,8 +21,8 @@ Consiste na ciração de uma pequena API para um sistema de anotações
 
 **(METODO) /url (PARÂMETROS)**
 
-> (GET) /api/notes
-> (GET) /api/note/123
-> (POST) /api/note (title, body)
-> (PUT) /api/note/123 (title, body)
-> (DELETE) /api/note/123
+> (GET) /api/notes - /api/getall.php
+> (GET) /api/note/123 - /api/get.php?id=123
+> (POST) /api/note - /api/insert.php (title, body)
+> (PUT) /api/note/123 - /api/update.php (title, body)
+> (DELETE) /api/note/123 - /api/delete.php (id)
