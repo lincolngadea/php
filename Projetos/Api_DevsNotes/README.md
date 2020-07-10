@@ -22,7 +22,10 @@ Consiste na ciração de uma pequena API para um sistema de anotações
 **(METODO) /url (PARÂMETROS)**
 
 > (GET) /api/notes - /api/getall.php
-> (GET) /api/note/123 - /api/get.php?id=123
+> (GET) /api/note/123 - /api/get.php (id)
 > (POST) /api/note - /api/insert.php (title, body)
 > (PUT) /api/note/123 - /api/update.php (title, body)
 > (DELETE) /api/note/123 - /api/delete.php (id)
+
+Site usado para testar a API
+>https://resttesttest.com/

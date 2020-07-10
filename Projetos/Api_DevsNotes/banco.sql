@@ -10,4 +10,4 @@ CREATE TABLE NOTES(
 /* INSERÇÃO DE DADOS PARA TESTE */
 
 INSERT INTO NOTES VALUES(NULL, "Registro para testes", "Conteúdo de testes apenas" );
-
+INSERT INTO NOTES VALUES(NULL,'Mais registros para testes','Um texto qualquer bem grande');
